@@ -3,4 +3,4 @@
   tasks: 
     - name: Adicionar usuario suporte nos servidores 
       become: true
-      user: name=suporte state=present shell=/bin/bash password=
+      user: name=suporte state=present shell=/bin/bash password=$1$q0jaPRhm$WZaoeXzWa2NSMlaDKkO5q0
