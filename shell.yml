@@ -1,0 +1,5 @@
+---
+- hosts: dbserver
+  tasks: 
+    - shell 'echo hello > /tmp/teste33.txt'
+    
